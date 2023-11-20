@@ -1,4 +1,4 @@
-# Textual Inversion
+# Diffuse to Choose
 
 This repository contains the source code for the [Diffuse to Choose website](https://diffuse-to-choose.github.io).
 It is mainly based on the code from the [textual inversion website](textual-inversion.github.io). If you reuse this code, please credit them.
