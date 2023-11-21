@@ -250,7 +250,7 @@
         <div class="columns is-centered has-text-centered">
           <div class="column">
             <div class="publication-img">
-              <img id="architecture" src="static/images/training/training_pipeline.png"/>
+              <img id="architecture" src="static/images/training/pipeline_final.png"/>
             </div>
           </div>
         </div>
@@ -275,7 +275,7 @@
         <div class="content">
 
           <p>
-            To handle arbitrary mask shapes and in-the-wild examples during inference, we implement a mask augmentation technique. With this approach, there is an equal probability of using either a bounding box mask (derived from the fine-grained mask) or a fine-grained mask itself. When a fine-grained mask is selected, we integrate the reference image within the largest rectangular area of the mask.
+            To handle arbitrary mask shapes and in-the-wild examples during inference, we implement a technique for mask augmentation. With this approach, we have an equal probability of using either a bounding box mask (derived from the fine-grained mask) or a fine-grained mask itself during training. When a fine-grained mask is selected, we integrate reference image within the largest rectangular area of the mask.
 
             <br>
           </p>
